@@ -1,12 +1,12 @@
 {
   "name": "lasercache",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "前端一个轻型的缓存工具，防止内存“侧漏”",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release":"webpack",
-    "example":"http-server -p 8880"
+    "release": "webpack",
+    "example": "http-server -p 8880"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,8 @@
     "babel-preset-latest": "^6.24.1",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "user": "0.0.0"
   }
 }

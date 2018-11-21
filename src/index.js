@@ -8,6 +8,9 @@ class LaserCache {
     get (key) {
         return this.list[key] //获取一个值
     }
+    clear(){
+        this.list ={}
+    }
 }
 
 window.LaserCache =LaserCache

@@ -3,6 +3,9 @@
 ## 简介
 
 ## 安装下载
+- 下载地址 https://github.com/xiangcheng0618/LaserCache/releases/tag/v0.0.1
+- `npm i LaserCache`
+- CDN http://unpkg.com/fast-cache-npm/release/bundle.js
 简单接入的文档
 
 - [使用文档](./doc/use/README.md)
